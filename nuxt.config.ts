@@ -5,14 +5,14 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   app: {
       head: {
-        title: 'DE Customs',
+        title: 'ClackyKeebs',
         meta: [
-          { name: 'description', content: 'DE Customs: Ongeëvenaarde auto detailing, zowel binnen als buiten, met ultiem gemak.' },
+          { name: 'description', content: 'ClackyCats deskmats are back! Buy them at your regional vendor now!' },
           { name: 'og:type', content: 'website' },
-          { name: 'og:title', content: 'DE Customs: Ongeëvenaarde auto detailing, zowel binnen als buiten, met ultiem gemak.' },
-          { name: 'og:url', content: 'https://decustoms.com' },
-          { name: 'og:description', content: 'DE Customs: Ongeëvenaarde auto detailing, zowel binnen als buiten, met ultiem gemak.' },
-          { name: 'og:image', content: 'https://decustoms.com/img/decustoms-small.png' },
+          { name: 'og:title', content: 'ClackyCats are back!' },
+          { name: 'og:url', content: 'https://clackykeebs.com' },
+          { name: 'og:description', content: 'ClackyCats deskmats are back! Buy them at your regional vendor now!' },
+          { name: 'og:image', content: 'https://clackykeebs.com/img/clackycats.png' },
         ],
         link: [
           { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
