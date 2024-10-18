@@ -22,7 +22,7 @@
                 </a>
             </div>
             <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                <img class="rounded-lg shadow" src="https://i.imgur.com/qh9yaFY.png" alt="mockup">
+                <img class="rounded-lg shadow" src="https://i.imgur.com/HShENje.png" alt="mockup">
             </div>
         </div>
         <Features />

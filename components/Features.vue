@@ -15,16 +15,16 @@
 
 <script lang="ts" setup>
 const images = ref([
-  "https://i.imgur.com/n0sCq26.png",
-  "https://i.imgur.com/pNoxExA.png",
-  "https://i.imgur.com/gPHh829.png",
-  "https://i.imgur.com/v61OOeJ.png",
-  "https://i.imgur.com/uSdLt4X.png",
-  "https://i.imgur.com/SyBoQac.png",
-  "https://i.imgur.com/aA66vq4.png",
-  "https://i.imgur.com/th9JiRV.png",
-  "https://i.imgur.com/MS6rrpJ.png",
-  "https://i.imgur.com/wOf8S6n.png",
+  "https://i.imgur.com/GEov7Aa.png",
+  "https://i.imgur.com/HrWMiOY.png",
+  "https://i.imgur.com/3hKWNvF.png",
+  "https://i.imgur.com/XKRgXFO.png",
+  "https://i.imgur.com/WnEWeCU.png",
+  "https://i.imgur.com/IPeiBbN.png",
+  "https://i.imgur.com/kxFDsqU.png",
+  "https://i.imgur.com/1GEV0C5.png",
+  "https://i.imgur.com/SPfhWoS.png",
+  "https://i.imgur.com/PUdMcXw.png",
 ]);
 
 

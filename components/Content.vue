@@ -78,6 +78,7 @@
 <script lang="ts" setup>
 import pt from '~/assets/img/vendors/prototypistsmall.svg';
 import keygem from '~/assets/img/vendors/keygemlogo.png';
+import cafege from '~/assets/img/vendors/cafegelogo.png';
 
 const vendors = ref([
   {
@@ -104,6 +105,15 @@ const vendors = ref([
     country: {
       name: 'US',
       icon: '<span class="fi fi-us text-4xl rounded"></span>',
+    }
+  },
+  {
+    name: 'cafege',
+    logo: cafege,
+    link: 'https://cafege.com.au',
+    country: {
+      name: 'OCE',
+      icon: '<span class="fi fi-au text-4xl rounded"></span>',
     }
   },
 ]);
