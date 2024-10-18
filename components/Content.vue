@@ -21,7 +21,7 @@
         <div>Vendor</div>
       </div>
       <!-- <hr class="pb-4" /> -->
-      <div v-for="vendor in vendors" :to="vendor.link">
+      <nuxt-link v-for="vendor in vendors" :to="vendor.link" target="_blank">
 
         <hr class="my-1 pt-2" />
         <div
@@ -38,7 +38,7 @@
             <img class="w-10 h-10 hidden sm:block" :src="vendor.logo" alt="" />
           </div>
         </div>
-      </div>
+      </nuxt-link>
 
     </div>
 
