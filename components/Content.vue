@@ -45,18 +45,6 @@
 
     <div v-if="false" class="mx-auto max-w-screen-xl px-4 2xl:px-0">
       <div class="mb-4 grid gap-4 sm:grid-cols-2 md:mb-8 lg:grid-cols-3 xl:grid-cols-4">
-        <nuxt-link v-if="false" v-for="vendor in vendors" :to="vendor.link"
-          class="rounded-lg border border-gray-200 bg-white shadow-sm dark:border-gray-700 dark:bg-gray-800 hover:scale-105 ease-in-out duration-100">
-          <div class="p-6">
-            <div class=" md:h-56 w-full">
-              <img class="mx-auto h-full" :src="vendor.logo" alt="" />
-            </div>
-          </div>
-          <div :style="vendor.country.flag"
-            class="px-6 py-10 flex items-center justify-center bg-primary-text border-gray-200 border-b border-x rounded-b-lg bg-center bg-no-repeat bg-cover">
-            <h3 class="text-2xl font-extrabold leading-tight text-white text-center">{{ vendor.country.name }}</h3>
-          </div>
-        </nuxt-link>
         <nuxt-link v-for="vendor in vendors" :to="vendor.link"
           class="rounded-lg border border-gray-200 bg-white shadow-sm dark:border-gray-700 dark:bg-gray-800 hover:scale-105 ease-in-out duration-100">
           <div class="">
@@ -79,6 +67,8 @@
 import pt from '~/assets/img/vendors/prototypistsmall.svg';
 import keygem from '~/assets/img/vendors/keygemlogo.png';
 import cafege from '~/assets/img/vendors/cafegelogo.png';
+import zfrontier from '~/assets/img/vendors/zfrontierlogo.jpg';
+import novelkeys from '~/assets/img/vendors/novelkeyslogo.jpg';
 
 const vendors = ref([
   {
@@ -102,18 +92,37 @@ const vendors = ref([
   {
     name: 'NovelKeys',
     link: 'https://novelkeys.com',
+    logo: novelkeys,
     country: {
       name: 'US',
       icon: '<span class="fi fi-us text-4xl rounded"></span>',
     }
   },
   {
-    name: 'cafege',
+    name: 'zFrontier',
+    logo: zfrontier,
+    link: 'https://zfrontier.com',
+    country: {
+      name: 'ASIA',
+      icon: '<span class="fi fi-cn text-4xl rounded"></span>',
+    }
+  },
+  {
+    name: 'Cafege',
     logo: cafege,
     link: 'https://cafege.com.au',
     country: {
       name: 'OCE',
       icon: '<span class="fi fi-au text-4xl rounded"></span>',
+    }
+  },
+  {
+    name: 'Deskhero',
+    logo: '',
+    link: 'https://desckhero.ca',
+    country: {
+      name: 'CA',
+      icon: '<span class="fi fi-ca text-4xl rounded"></span>',
     }
   },
 ]);
