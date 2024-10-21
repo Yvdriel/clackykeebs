@@ -26,9 +26,9 @@
         <hr class="my-1 pt-2" />
         <div
           class="w-full flex justify-between items-center p-2 hover:rounded-lg hover:cursor-pointer hover:bg-[#eaecee] ease-in-out duration-75 hover:scale-105">
-          <div class="flex items-center gap-x-4">
+          <div class="flex items-center gap-x-3">
             <div v-html="vendor.country.icon"></div>
-            <div class="">
+            <div class="font-semibold">
               {{ vendor.country.name }}
             </div>
           </div>
