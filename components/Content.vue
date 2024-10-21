@@ -69,6 +69,7 @@ import keygem from '~/assets/img/vendors/keygemlogo.png';
 import cafege from '~/assets/img/vendors/cafegelogo.png';
 import zfrontier from '~/assets/img/vendors/zfrontierlogo.jpg';
 import novelkeys from '~/assets/img/vendors/novelkeyslogo.jpg';
+import deskhero from '~/assets/img/vendors/deskherologo.png';
 
 const vendors = ref([
   {
@@ -118,7 +119,7 @@ const vendors = ref([
   },
   {
     name: 'Deskhero',
-    logo: '',
+    logo: deskhero,
     link: 'https://desckhero.ca',
     country: {
       name: 'CA',
