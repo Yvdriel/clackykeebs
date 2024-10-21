@@ -25,17 +25,18 @@
 
         <hr class="my-1 pt-2" />
         <div
-          class="w-full flex justify-between items-center p-2 hover:rounded-lg hover:cursor-pointer hover:bg-gray-100 ease-in-out duration-75 hover:scale-105">
+          class="w-full flex justify-between items-center p-2 hover:rounded-lg hover:cursor-pointer hover:bg-[#eaecee] ease-in-out duration-75 hover:scale-105">
           <div class="flex items-center gap-x-4">
             <div v-html="vendor.country.icon"></div>
             <div class="">
               {{ vendor.country.name }}
             </div>
           </div>
-          <div class="flex items-center gap-x-2">
+          <div class="flex items-center gap-x-2 relative">
             <h1 class="font-bold">{{ vendor.name }}</h1>
             <div class="opacity-50 hidden sm:block">|</div>
             <img class="w-10 h-10 hidden sm:block" :src="vendor.logo" alt="" />
+            <img :src="link" class="w-4 h-4 absolute -right-7" />
           </div>
         </div>
       </nuxt-link>
@@ -70,6 +71,8 @@ import cafege from '~/assets/img/vendors/cafegelogo.png';
 import zfrontier from '~/assets/img/vendors/zfrontierlogo.jpg';
 import novelkeys from '~/assets/img/vendors/novelkeyslogo.jpg';
 import deskhero from '~/assets/img/vendors/deskherologo.png';
+
+import link from '~/assets/img/link.svg';
 
 const vendors = ref([
   {
