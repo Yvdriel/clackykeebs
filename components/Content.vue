@@ -77,7 +77,7 @@ import link from '~/assets/img/link.svg';
 const vendors = ref([
   {
     name: 'proto[Typist]',
-    link: 'https://prototypist.net',
+    link: 'https://prototypist.net/products/group-buy-clackycat-r2-deskmat',
     logo: pt,
     country: {
       name: 'UK',
@@ -86,7 +86,7 @@ const vendors = ref([
   },
   {
     name: 'Keygem',
-    link: 'https://keygem.com',
+    link: 'https://keygem.com/products/clackycat-r2-deskmat-group-buy',
     logo: keygem,
     country: {
       name: 'EU',
@@ -105,7 +105,7 @@ const vendors = ref([
   {
     name: 'zFrontier',
     logo: zfrontier,
-    link: 'https://zfrontier.com',
+    link: 'https://www.zfrontier.com/app/mch/lZ27RNK7xRWl',
     country: {
       name: 'ASIA',
       icon: '<span class="fi fi-cn text-4xl rounded"></span>',
@@ -114,7 +114,7 @@ const vendors = ref([
   {
     name: 'Cafege',
     logo: cafege,
-    link: 'https://cafege.com.au',
+    link: 'https://cafege.com.au/products/gb-clackycat-r2-deskmats',
     country: {
       name: 'OCE',
       icon: '<span class="fi fi-au text-4xl rounded"></span>',
@@ -123,7 +123,7 @@ const vendors = ref([
   {
     name: 'Deskhero',
     logo: deskhero,
-    link: 'https://desckhero.ca',
+    link: 'https://deskhero.ca',
     country: {
       name: 'CA',
       icon: '<span class="fi fi-ca text-4xl rounded"></span>',
